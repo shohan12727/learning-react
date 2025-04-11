@@ -1,5 +1,6 @@
 
 import './App.css'
+import ArrayHandle from './component/ArrayHandle'
 import MyComponent from './component/MyComponent'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <MyComponent></MyComponent>
+      <ArrayHandle></ArrayHandle>
     </>
   )
 }
